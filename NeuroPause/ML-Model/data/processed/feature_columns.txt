@@ -1,4 +1,0 @@
-scroll_speed
-swipe_count
-touches_per_minute
-session_duration
