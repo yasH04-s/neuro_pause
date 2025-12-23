@@ -1,0 +1,14 @@
+# interactions.csv
+
+# This file is intended to store logs of user interactions with the nudge system.
+# The expected format is a CSV with the following columns:
+# - user_id: Unique identifier for the user
+# - timestamp: Date and time of the interaction
+# - nudge_type: Type of nudge presented to the user
+# - action_taken: Action taken by the user in response to the nudge
+# - feedback: User feedback on the nudge (if applicable)
+
+# Example header:
+# user_id,timestamp,nudge_type,action_taken,feedback
+
+# The file is currently empty and will be populated with interaction data during the execution of the system.

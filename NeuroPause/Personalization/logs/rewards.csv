@@ -1,0 +1,10 @@
+# rewards.csv
+
+# This file is intended to store logs of rewards received by users based on their interactions with the nudge system.
+# The expected format is as follows:
+# user_id, reward_amount, timestamp
+# Example:
+# 1, 10, 2023-10-01 12:00:00
+# 2, 5, 2023-10-01 12:05:00
+
+# The file is currently empty and will be populated during the execution of the nudge system.

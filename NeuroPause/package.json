@@ -1,0 +1,27 @@
+{
+  "name": "neuro-pause",
+  "version": "1.0.0",
+  "description": "Real-Time AI-Based Nudge System for enhancing user engagement and well-being.",
+  "main": "index.js",
+  "scripts": {
+    "start": "python3 -m ML-Model.scripts.train_model",
+    "preprocess": "python3 -m ML-Model.scripts.preprocessing",
+    "evaluate": "python3 -m ML-Model.scripts.evaluate_model",
+    "convert": "python3 -m ML-Model.scripts.convert_to_tflite"
+  },
+  "dependencies": {
+    "tensorflow": "^2.x",
+    "numpy": "^1.x",
+    "pandas": "^1.x",
+    "scikit-learn": "^1.x"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "AI",
+    "Machine Learning",
+    "Nudge System",
+    "Personalization"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
